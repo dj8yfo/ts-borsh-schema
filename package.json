@@ -4,6 +4,7 @@
   "description": "Borsh serialization little helper",
   "author": "PopcornPaw, dj8yf0μl",
   "license": "ISC",
+  "main": "lib/index.ts",
   "devDependencies": {
     "typescript": "^4.4.4"
   },
