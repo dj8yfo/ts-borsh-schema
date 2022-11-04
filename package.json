@@ -4,7 +4,11 @@
   "description": "Borsh serialization little helper",
   "author": "PopcornPaw, dj8yf0μl",
   "license": "ISC",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "typescript": "^4.4.4"
   },
@@ -12,5 +16,6 @@
     "@velas/web3": "=0.1.7",
     "bn.js": "^5.0.0",
     "borsh": "^0.7.0"
-  }
+  },
+  "files": ["lib/**/*"]
 }

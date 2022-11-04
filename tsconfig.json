@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "allowJs": true,
-    "downlevelIteration": true
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true
   },
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
 }
