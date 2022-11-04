@@ -1,0 +1,15 @@
+{
+  "name": "ts-borsh-schema",
+  "version": "1.0.0",
+  "description": "Borsh serialization little helper",
+  "author": "PopcornPaw, dj8yf0μl",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@velas/web3": "=0.1.7",
+    "bn": "^1.0.5",
+    "borsh": "^0.7.0"
+  }
+}
