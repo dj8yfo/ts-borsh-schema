@@ -8,6 +8,7 @@ export declare class PublicKeyBE {
     fromPubKey(arg: PublicKey): this;
     equals(publicKey: PublicKeyBE): boolean;
 }
+export declare const borshPublicKeyHack: () => void;
 export declare class Struct {
     constructor(properties: any);
 }
